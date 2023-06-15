@@ -1,9 +1,8 @@
 from typing import Any
 
 from fastapi import FastAPI
-from starlette.middleware.cors import CORSMiddleware
-
 from fastapi_template.routers import routers
+from starlette.middleware.cors import CORSMiddleware
 
 __version__ = "0.1.0"
 

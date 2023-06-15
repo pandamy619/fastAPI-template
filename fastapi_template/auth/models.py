@@ -1,8 +1,7 @@
 from datetime import datetime
 
-from sqlalchemy import Boolean, Column, DateTime, Integer, String
-
 from geo_ai_backend.database import Base
+from sqlalchemy import Boolean, Column, DateTime, Integer, String
 
 
 class User(Base):
@@ -15,4 +14,3 @@ class User(Base):
     role = Column(String)
     created_at = Column(DateTime, default=datetime.now())
     is_active = Column(Boolean, default=True)
-

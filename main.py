@@ -1,5 +1,4 @@
 import uvicorn
-
 from fastapi_template import create_app
 from fastapi_template.config import settings
 
