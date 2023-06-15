@@ -16,6 +16,7 @@ fastAPI-template
 │   ├── config.py  # global configs
 │   ├── models.py  # global models
 │   ├── exceptions.py  # global exceptions
+│   ├── routers.py  # global routers
 │   └── database.py  # db connection related stuff
 ├── tests
 │   ├── auth

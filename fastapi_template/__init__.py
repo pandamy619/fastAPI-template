@@ -3,7 +3,7 @@ from typing import Any
 from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
 
-# from fastapi_template.routers import routers
+from fastapi_template.routers import routers
 
 __version__ = "0.1.0"
 
@@ -18,5 +18,5 @@ def create_app() -> Any:
         allow_headers=["*"],
     )
 
-    # routers(app=app)
+    routers(app=app)
     return app
