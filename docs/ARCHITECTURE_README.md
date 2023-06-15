@@ -13,19 +13,9 @@ fastAPI-template
 │   │   ├── exceptions.py
 │   │   ├── service.py
 │   │   └── utils.py
-│   └── posts
-│   │   ├── router.py
-│   │   ├── schemas.py
-│   │   ├── models.py
-│   │   ├── dependencies.py
-│   │   ├── constants.py
-│   │   ├── exceptions.py
-│   │   ├── service.py
-│   │   └── utils.py
 │   ├── config.py  # global configs
 │   ├── models.py  # global models
 │   ├── exceptions.py  # global exceptions
-│   ├── pagination.py  # global module e.g. pagination
 │   └── database.py  # db connection related stuff
 ├── tests
 │   ├── auth
