@@ -1,10 +1,9 @@
 import pytest
 from fastapi.testclient import TestClient
+from fastapi_template import create_app
 
 
 @pytest.fixture()
 def client():
     app = create_app()
-    app.dependency_overrides[get_db] = override_get_db
     return TestClient(app)
-
