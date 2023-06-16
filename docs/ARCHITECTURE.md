@@ -42,4 +42,3 @@ fastAPI-template
     * utils.py - non-business logic functions, e.g. response normalization, data enrichment, etc.
     * exceptions - module specific exceptions, e.g. PostNotFound, InvalidUserData
 
-[Processes and agreements in development](/docs/DEV_PROCESS.md)
