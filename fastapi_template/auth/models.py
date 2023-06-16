@@ -1,3 +1,5 @@
+"""sqlalchemy example"""
+
 from datetime import datetime
 
 from geo_ai_backend.database import Base
