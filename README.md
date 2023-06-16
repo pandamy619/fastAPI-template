@@ -37,9 +37,9 @@ python main.py
 
 
 ## 💭 Developer convention
-- [Architecture](/docs/ARCHITECTURE.md)
-- [Branch](/docs/BRANCH.md)
-- [Commit](/docs/COMMIT.md)
+- [Architecture](/docs/ARCHITECTURE.md) The architecture convention
+- [Branch](/docs/BRANCH.md) The branch name convention
+- [Commit](/docs/COMMIT.md) The commit message convention
 - [Dependencies](./docs/InstallDependencies.md) Installing dependencies
 
 ## ⛏️ Built Using <a name = "built_using"></a>
